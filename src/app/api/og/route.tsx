@@ -7,7 +7,7 @@ export const runtime = "edge";
 export async function GET() {
   // Make sure the font exists in the specified path:
   const fontData = await fetch(
-    new URL("../../assets/TYPEWR__.ttf", import.meta.url)
+    new URL("../../../../assets/TYPEWR__.TTF", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
