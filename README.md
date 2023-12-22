@@ -1,3 +1,13 @@
+# Test OG Custom Fonts
+
+Navigate to `/api/og` to see the generated image using a custom font.
+
+[test-og-custom-fonts.vercel.app/api/og](https://test-og-custom-fonts.vercel.app/api/og)
+
+Based of [this example from the docs](https://vercel.com/docs/functions/edge-functions/og-image-generation/og-image-examples#using-a-custom-font). It appears to break when using `/src/app` directory as the import path needs to be updated.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
